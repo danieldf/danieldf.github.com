@@ -10,7 +10,7 @@ The quickest way to start and publish your Jekyll powered blog. 100% compatible 
 
 ## Version
 
-0.1.1 - stable <https://github.com/mojombo/semver>
+0.1.0 - stable (Semantic Versioning <https://github.com/mojombo/semver>)
 
 ## License
 

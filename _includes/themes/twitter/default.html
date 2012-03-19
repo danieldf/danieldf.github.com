@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="description" content="Daniel Ferrante's GitHub Website" />
+    <meta name="keywords" content="Daniel,Doro,Ferrante,Brasil,Ciencia,Livre,Free,Science,Open,Access,Ars,Physica" />
+
+    <script type="text/javascript"
+      src="https://d3eoax9i5htok0.cloudfront.net/mathjax/latest/MathJax.js?config=TeX-MML-AM_HTMLorMML">
+    </script>
+
+    <title>{{ page.title }}</title>
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    <meta name="author" content="{{ site.author.name }}" />
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all" />
+
+    <!-- Le fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png" />
+  -->
+  </head>
+
+  <body>
+
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
+          <ul class="nav">
+            {% assign pages_list = site.pages %}
+            {% assign group = 'navigation' %}
+            {% include JB/pages_list %}
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="content">
+        {{ content }}
+      </div>
+
+      <footer>
+        <p>&copy; {{ site.author.name }} 2012 
+          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+        </p>
+
+	<p><a href="http://www.w3.org/html/logo/"><img src="http://www.w3.org/html/logo/badge/html5-badge-h-css3-graphics-semantics.png" width="94" height="31" alt="HTML5 Powered with CSS3 / Styling, Graphics, 3D &amp; Effects, and Semantics" title="HTML5 Powered with CSS3 / Styling, Graphics, 3D &amp; Effects, and Semantics"></a>
+	  <a href="http://www.w3.org/Math/"><img src="http://www.w3.org/Icons/valid-mathml20-blue.png" alt="Valid MathML 2.0" /></a>
+	  <a href="http://www.w3.org/Graphics/SVG/"><img src="http://www.w3.org/Icons/valid-svg11-blue.png" alt="Valid SVG 1.1" /></a>
+	  <a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fdanieldf.github.com&amp;profile=none&amp;usermedium=all&amp;warning=1&amp;vextwarning=&amp;lang=en"><img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" /></a>
+	  <a href="http://www.mathjax.org/"><img title="Powered by MathJax" src="http://www.mathjax.org/badge.gif" style="border-width:0" width="88" height="43" alt="Powered by MathJax" /></a>
+	  <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/us/88x31.png" /></a>
+	</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    {% include JB/analytics %}
+  </body>
+</html>

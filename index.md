@@ -7,7 +7,7 @@ tagline: Free Science 2.0
 
 My name is Daniel Doro Ferrante... testing MathJax: \\( a\, x^2 + b\, x + c = 0 \\) .
 
-And, some more: $$ \mathscr{Z}[J] = \int_{\mathcal{C}} e^{i\, S(\varphi)}\, e^{i\, J\, \varphi}\, \mathcal{D}\varphi = \mathrm{Tr}[e^{i\, S}]\;. $$
+And, some more: $$ \mathscr{Z}(J) = \int_{\mathcal{C}} e^{i\, S(\varphi)}\, e^{i\, J\, \varphi}\, \mathcal{D}\varphi = \mathrm{Tr}(e^{i\, S})\;. $$
 
 <!--
 Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)

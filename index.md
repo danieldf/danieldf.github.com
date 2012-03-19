@@ -1,34 +1,12 @@
 ---
 layout: page
-title: Daniel Ferrante
+title: Ars Physica
 tagline: Free Science 2.0
 ---
 {% include JB/setup %}
 
-My name is Daniel Doro Ferrante... testing MathJax: \\( a\, x^2 + b\, x + c = 0 \\) .
+MathJax: $$ \mathscr{Z}(J) = \int_{\mathcal{C}} e^{i\, S(\varphi)}\, e^{i\, J\, \varphi}\, \mathcal{D}\varphi = \mathrm{Tr} (e^{i\, S})\;. $$
 
-And, some more: $$ \mathscr{Z}(J) = \int_{\mathcal{C}} e^{i\, S(\varphi)}\, e^{i\, J\, \varphi}\, \mathcal{D}\varphi = \mathrm{Tr}(e^{i\, S})\;. $$
-
-<!--
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
-
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
-
-## Update Author Attributes
-
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Surname
-      email : blah@email.test
-      github : username
-      twitter : username
-
-The theme should reference these variables whenever needed.
--->
-    
 ## Sample Posts
 
 This blog contains sample posts which help stage pages and blog data.

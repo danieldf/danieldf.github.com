@@ -11,7 +11,13 @@ The quickest way to start and publish your Jekyll powered blog. 100% compatible 
 
 ## Version
 
-0.1.1 - stable (Semantic Versioning <https://github.com/mojombo/semver>)
+0.1.2 - stable (Semantic Versioning <https://github.com/mojombo/semver>)
+
+### Changelog
+
+- **0.1.0:** first stable release
+- **0.1.1:** added Google API
+- **0.1.2:** upgraded Impress.js to v0.4.1
 
 ## License
 

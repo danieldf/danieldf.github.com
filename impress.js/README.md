@@ -20,19 +20,70 @@ It's an (un)fortunate coincidence that a Open/LibreOffice presentation tool is c
 VERSION HISTORY
 -----------------
 
-### 0.4pre ([browse](http://github.com/bartaz/impress.js/))
+### 0.4.1 ([browse](http://github.com/bartaz/impress.js/tree/0.4.1), [zip](http://github.com/bartaz/impress.js/zipball/0.4.1), [tar](http://github.com/bartaz/impress.js/tarball/0.4.1))
 
-**currently in development**
+#### BUGFIX RELEASE
+
+Changes is version 0.4 introduced a bug causing JavaScript errors being thrown all over the place in fallback mode.
+This release fixes this issue.
+
+It also adds a flag `impress.supported` that can be used in JavaScript to check if impress.js is supported in the browser.
+
+
+### 0.4 ([browse](http://github.com/bartaz/impress.js/tree/0.4), [zip](http://github.com/bartaz/impress.js/zipball/0.4), [tar](http://github.com/bartaz/impress.js/tarball/0.4))
+
+#### CHANGELOG
+
+* configuration options on `#impress` element: `data-perspective` (in px, defaults so 1000),
+  `data-transition-duration` (in ms, defaults to 1000)
+* automatic scaling to fit window size, with configuration options:  `data-width` (in px, defaults to 1024),
+  `data-height` (in px, defaults to 768), `max-scale` (defaults to 1), `min-scale` (defaults to 0)
+* `goto` API function was renamed to `stepTo` because `goto` is a future reserved work in JavaScript,
+  so **please make sure to update your code**
+* fallback `impress-not-supported` class is now set on `body` element instead of `#impress` element and it's
+  replaced with `impress-supported` when browser supports all required features
+* classes `step-ID` used to indicate progress of the presentation are now renamed to `impress-on-ID` and are
+  set on `body` element, so **please make sure to update your code**
+* basic validation of configuration options
+* couple of typos and bugs fixed
+* favicon added ;)
+
+
+#### UPGRADING FROM PREVIOUS VERSIONS
+
+If in your custom JavaScript code you were using `goto()` function from impress.js API make sure to change it
+to `stepTo()`.
+
+If in your CSS you were using classes based on currently active step with `step-` prefix, such as `step-bored`
+(where `bored` is the id of the step element) make sure to change it to `impress-on-` prefix
+(for example `impress-on-bored`). Also in previous versions these classes were assigned to `#impress` element
+and now they are added to `body` element, so if your CSS code depends on this, it also should be updated.
+
+Same happened to `impress-not-supported` class name - it was moved from `#impress` element to `body`, so update
+your CSS if it's needed.
+
+#### NOTE ON BLACKBERRY PLAYBOOK
+
+Changes and fixes added in this version have broken the experience on Blackberry Playbook with OS in version 1.0.
+It happened due to a bug in the Playbook browser in this version. Fortunately in version 2.0 of Playbook OS this
+bug was fixed and impress.js works fine.
+
+So currently impress.js work only on Blackberry Playbook with latest OS. Fortunately, [it seems that most of the
+users](http://twitter.com/n_adam_stanley/status/178188611827679233) [are quite quick with updating their devices]
+(http://twitter.com/brcewane/status/178230406196379648)
+
 
 
 ### 0.3 ([browse](http://github.com/bartaz/impress.js/tree/0.3), [zip](http://github.com/bartaz/impress.js/zipball/0.3), [tar](http://github.com/bartaz/impress.js/tarball/0.3))
+
+#### CHANGELOG
 
 * minor CSS 3D fixes
 * basic API to control the presentation flow from JavaScript
 * touch event support
 * basic support for iPad (iOS 5 and iOS 4 with polyfills) and Blackberry Playbook
 
-**UPGRADING FROM PREVIOUS VERSIONS**
+#### UPGRADING FROM PREVIOUS VERSIONS
 
 Because API was introduced the way impress.js script is initialized was changed a bit. You not only has to include
 `impress.js` script file, but also call `impress()` function.
@@ -111,8 +162,22 @@ EXAMPLES AND DEMOS
 
 [electricanimal.co.uk](http://www.electricanimal.co.uk) by [@elecmal](http://twitter.com/elecmal)
 
+[t3kila.com](http://www.t3kila.com) by Romain Wurtz
+
 If you have used impress.js in your presentation (or website) and would like to have it listed here,
 please contact me via GitHub or send me a pull request to updated `README.md` file.
+
+
+
+WANT TO CONTRIBUTE?
+---------------------
+
+If you've found a bug or have a great idea for new feature let me know by [adding your suggestion]
+(http://github.com/bartaz/impress.js/issues/new) to [issues list](https://github.com/bartaz/impress.js/issues).
+
+If you have fixed a bug or implemented a feature that you'd like to share, send your pull request against [dev branch]
+(http://github.com/bartaz/impress.js/tree/dev). But remember that I only accept code that fits my vision of impress.js
+and my coding standards - so make sure you are open for discussion :)
 
 
 

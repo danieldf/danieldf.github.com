@@ -16,7 +16,7 @@ The quickest way to start and publish your Jekyll powered blog. 100% compatible 
 ### Changelog
 
 - **0.1.0:** first stable release
-- **0.1.1:** added Google API
+- **0.1.1:** added support to Google API
 - **0.1.2:** upgraded Impress.js to v0.4.1
 
 ## License

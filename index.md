@@ -5,7 +5,7 @@ tagline: Free Science 2.0
 ---
 {% include JB/setup %}
 
-MathJax: $$ \mathscr{Z}(J) = \int_{\mathcal{C}} e^{i\, S(\varphi)}\, e^{i\, J\, \varphi}\, \mathcal{D}\varphi = \mathrm{Tr} (e^{i\, S})\;. $$
+MathJax: $$ \mathscr{Z}(J) = \int_{\mathcal{C}} e^{i\, S(\varphi)}\, e^{i\, J\, \varphi}\, \mathcal{D}\varphi = \mathrm{Tr}_{\mathcal{C}} (e^{i\, S}\, e^{i\, J\, \varphi})\;. $$
 
 ## Sample Posts
 

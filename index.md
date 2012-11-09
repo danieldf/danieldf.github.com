@@ -34,7 +34,7 @@ MathJax: $$ \mathscr{Z}_{\mathcal{C}}(J) = \int_{\mathcal{C}} e^{i\, S(\varphi)}
 
 ### Interesting Links…
 
-* [Theoretical Physics FAQ;](http://www.mat.univie.ac.at/~neum/physics-faq.txt);
+* [Theoretical Physics FAQ](http://www.mat.univie.ac.at/~neum/physics-faq.txt);
 * [The Unreasonable Effectiveness of Mathematics in the Natural Sciences](http://www.dartmouth.edu/~matc/MathDrama/reading/Wigner.html);
 * [Theoretical Mathematics](http://arxiv.org/find/all/1/all:+AND+Jaffe+Quinn/0/1/0/all/0/1);
 * [Duhem-Quine Thesis](http://en.wikipedia.org/wiki/Duhem-Quine_thesis);
@@ -44,10 +44,12 @@ MathJax: $$ \mathscr{Z}_{\mathcal{C}}(J) = \int_{\mathcal{C}} e^{i\, S(\varphi)}
 
 ## Sample Posts
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
+<!--
+  This blog contains sample posts which help stage pages and blog data.
+  When you don't need the samples anymore just delete the `_posts/core-samples` folder.
 
-    $ rm -rf _posts/core-samples
+      $ rm -rf _posts/core-samples
+-->
 
 Here's a sample "posts list".
 

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Research
-tagline: Theoretical and Computational Neuroscience
+title: Theoretical and Computational Neuroscience
+tagline: Research
 ---
 {% include JB/setup %}
 

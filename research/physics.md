@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Research
-tagline: Physics
+title: Physics
+tagline: Research
 ---
 {% include JB/setup %}
 

@@ -64,7 +64,7 @@ Here's a sample "pages list".
 
 <ul class="pages">
   {% for post in site.pages %}
-    <li><span>{{ page.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ page.url }}">{{ page.title }}</a></li>
+    <li><a href="{{ BASE_PATH }}{{ page.url }}">{{ page.title }}</a></li>
   {% endfor %}
 </ul>
 

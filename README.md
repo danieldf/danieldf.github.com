@@ -16,7 +16,7 @@ The quickest way to start and publish your Jekyll powered blog. 100% compatible 
 ### Changelog
 
 - **TO-DO:** Add [Solarized](http://ethanschoonover.com/solarized) color scheme
-- **0.2.0:** fixed the tagline in posts, upgraded impress.js, added content, added Adobe Sans Pro font
+- **0.2.0:** fixed the tagline in posts, upgraded impress.js (v0.5.3), upgraded JB (v0.2.13), added content, added Adobe Sans Pro font
 - **0.1.0:** first stable release
 - **0.1.1:** added support to Google API
 - **0.1.2:** upgraded Impress.js to v0.4.1

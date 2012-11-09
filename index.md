@@ -20,7 +20,7 @@ spectral geometry, and their relation to deformation and geometric quantization;
 (dualities in general: AdS/CFT, modular and mirror symmetry, etc); quantum fields in curved spaces; higher gauge theory
 and category theory; and so on — and their relations to Quantum Gravity.
 
-Lately, I have also been peaking at some problems in Theoreical and Computational Neuroscience,
+Lately, I have also been peaking at some problems in Theoretical and Computational Neuroscience,
 e.g., [Ersätz-Brain](http://www.cog.brown.edu/Research/ErsatzBrainGroup/).
 
 Using the [arXivs](http://arxiv.org/)' notation: [hep-th](http://arxiv.org/archive/hep-th), [math-ph](http://arxiv.org/archive/math-ph),
@@ -31,6 +31,15 @@ and my [Lattes CV](http://lattes.cnpq.br/0783279382148211) (pt_BR).
 
 
 MathJax: $$ \mathscr{Z}_{\mathcal{C}}(J) = \int_{\mathcal{C}} e^{i\, S(\varphi)}\, e^{i\, J\, \varphi}\, \mathcal{D}\varphi = \mathrm{Tr}_{\mathcal{C}} (e^{i\, S}\, e^{i\, J\, \varphi})\;. $$
+
+### Interesting Links…
+
+* [Theoretical Physics FAQ;](http://www.mat.univie.ac.at/~neum/physics-faq.txt);
+* [The Unreasonable Effectiveness of Mathematics in the Natural Sciences](http://www.dartmouth.edu/~matc/MathDrama/reading/Wigner.html);
+* [Theoretical Mathematics](http://arxiv.org/find/all/1/all:+AND+Jaffe+Quinn/0/1/0/all/0/1);
+* [Duhem-Quine Thesis](http://en.wikipedia.org/wiki/Duhem-Quine_thesis);
+* [The History of the Guralnik, Hagen and Kibble development of the Theory of Spontaneous Symmetry Breaking and Gauge Particles](http://arxiv.org/abs/0907.3466),
+    by [G. Guralnik](http://www.aps.org/programs/honors/prizes/prizerecipient.cfm?name=Gerald%20S.%20Guralnik&year=2010).
 
 
 ## Sample Posts

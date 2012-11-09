@@ -30,10 +30,11 @@ My scientific articles can be found in the [arXivs](http://arxiv.org/a/ferrante_
 and my [Lattes CV](http://lattes.cnpq.br/0783279382148211) (pt_BR).
 
 
-MathJax: $$ \mathscr{Z}_{\mathcal{C}}(J) = \int_{\mathcal{C}} e^{i\, S(\varphi)}\, e^{i\, J\, \varphi}\, \mathcal{D}\varphi = \mathrm{Tr}_{\mathcal{C}} (e^{i\, S}\, e^{i\, J\, \varphi})\;. $$
+MathJax test: $$ \mathscr{Z}_{\mathcal{C}}(J) = \int_{\mathcal{C}} e^{i\, S(\varphi)}\, e^{i\, J\, \varphi}\, \mathcal{D}\varphi = \mathrm{Tr}_{\mathcal{C}} (e^{i\, S}\, e^{i\, J\, \varphi})\;. $$
 
 ### Interesting Links…
 
+* [Physics.SE](http://physics.stackexchange.com/);
 * [Theoretical Physics FAQ](http://www.mat.univie.ac.at/~neum/physics-faq.txt);
 * [The Unreasonable Effectiveness of Mathematics in the Natural Sciences](http://www.dartmouth.edu/~matc/MathDrama/reading/Wigner.html);
 * [Theoretical Mathematics](http://arxiv.org/find/all/1/all:+AND+Jaffe+Quinn/0/1/0/all/0/1);
@@ -59,7 +60,10 @@ Here's a sample "posts list".
   {% endfor %}
 </ul>
 
-## To-Do
 
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
+<!--
+  ## To-Do
+
+  This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
+  We need to clean up the themes, make theme usage guides with theme-specific markup examples.
+-->

@@ -62,12 +62,10 @@ Here's a sample "posts list".
 
 Here's a sample "pages list".
 
-<ul class="pages">
-  {% for post in site.pages %}
-    <li><a href="{{ BASE_PATH }}{{ page.url }}">{{ page.title }}</a></li>
-  {% endfor %}
+<ul>
+  {% assign pages_list = site.pages %}
+  {% include JB/pages_list %}
 </ul>
-
 
 <!--
   ## To-Do

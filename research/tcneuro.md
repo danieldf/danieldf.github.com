@@ -8,7 +8,8 @@ tags: [arXiv, q-bio, q-bio.QM, cond-mat, cond-mat.dis-nn, cond-mat.stat-mech]
 
 ## Ersätz-Brain
 
-The Ersätz-Brain is a project that seeks to build a computational model based on
+The [Ersätz-Brain](http://www.cog.brown.edu/Research/ErsatzBrainGroup/index.html)
+is a project that seeks to build a computational model based on
 many of the functional properties of neo-cortex, e.g., the efficient execution
 of massively parallel software displaying cognitive abilities. Examples of these
 software applications would be: natural language understanding, text processing,

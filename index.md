@@ -34,11 +34,17 @@ MathJax test: $$ \mathscr{Z}_{\mathcal{C}}(J) = \int_{\mathcal{C}} e^{i\, S(\var
 
 ### Interesting Links…
 
+* [LuaJIT](http://luajit.org/);
+* [Julia](http://julialang.org/);
+* [Lush](http://lush.sourceforge.net/);
+* [Torch](http://torch.ch/), [Torch at GitHub](https://github.com/torch/torch.github.io);
+
 * [Physics.SE](http://physics.stackexchange.com/);
 * [Theoretical Physics FAQ](http://www.mat.univie.ac.at/~neum/physics-faq.txt);
 * [The Unreasonable Effectiveness of Mathematics in the Natural Sciences](http://www.dartmouth.edu/~matc/MathDrama/reading/Wigner.html);
 * [Theoretical Mathematics](http://arxiv.org/find/all/1/all:+AND+Jaffe+Quinn/0/1/0/all/0/1);
 * [Duhem-Quine Thesis](http://en.wikipedia.org/wiki/Duhem-Quine_thesis);
+
 * [The History of the Guralnik, Hagen and Kibble development of the Theory of Spontaneous Symmetry Breaking and Gauge Particles](http://arxiv.org/abs/0907.3466),
     by [G. Guralnik](http://www.aps.org/programs/honors/prizes/prizerecipient.cfm?name=Gerald%20S.%20Guralnik&year=2010).
 

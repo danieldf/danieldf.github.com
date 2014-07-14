@@ -30,7 +30,9 @@ My scientific articles can be found in the [arXivs](http://arxiv.org/a/ferrante_
 and my [Lattes CV](http://lattes.cnpq.br/0783279382148211) (pt_BR).
 
 
-MathJax test: $$ \mathscr{Z}_{\mathcal{C}}(J) = \int_{\mathcal{C}} e^{i\, S(\varphi)}\, e^{i\, J\, \varphi}\, \mathcal{D}\varphi = \mathrm{Tr}_{\mathcal{C}} (e^{i\, S}\, e^{i\, J\, \varphi})\;. $$
+MathJax test:
+
+$$ \mathscr{Z}_{\mathcal{C}}(J) = \int_{\mathcal{C}} e^{i\, S(\varphi)}\, e^{i\, J\, \varphi}\, \mathcal{D}\varphi = \mathrm{Tr}_{\mathcal{C}} (e^{i\, S}\, e^{i\, J\, \varphi})\;. $$
 
 ### Interesting Links…
 

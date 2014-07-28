@@ -1,7 +1,7 @@
 ---
 layout: post
 category : IronMan
-tagline: an example routine
+page.tagline: an example routine
 tags : [cube, strongman, ironman]
 ---
 {% include JB/setup %}
